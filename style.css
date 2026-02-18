@@ -1,0 +1,65 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #32507F, #388383);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* Title */
+h2 {
+    margin-bottom: 30px;
+    color: #32507F;
+}
+
+/* Links */
+a {
+    display: block;
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    color: white;
+}
+
+/* Instagram */
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366);
+}
+
+/* Facebook */
+.facebook {
+    background-color: #1877F2;
+}
+
+/* TikTok */
+.tiktok {
+    background-color: #000000;
+}
+
+/* Hover effect */
+a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
